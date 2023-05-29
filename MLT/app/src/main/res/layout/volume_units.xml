@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select unit"
+                android:gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp" />
+            <TextView
+                android:id="@+id/mc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="m³ - meter cube"/>
+            <TextView
+                android:id="@+id/dmc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="dm³ - decimeter cube"/>
+            <TextView
+                android:id="@+id/cmc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="cm³ - centimeter cube"/>
+            <TextView
+                android:id="@+id/mmc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="mm³ - millimeter cube"/>
+            <TextView
+                android:id="@+id/hl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="hl - hectoliter"/>
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="l - liter"/>
+            <TextView
+                android:id="@+id/dl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="dl - deciliter"/>
+            <TextView
+                android:id="@+id/cl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="cl - centiliter"/>
+            <TextView
+                android:id="@+id/ml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="ml - milliliter"/>
+            <TextView
+                android:id="@+id/ftc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="ft³ - foot cube"/>
+            <TextView
+                android:id="@+id/inc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="in³ - inch cube"/>
+            <TextView
+                android:id="@+id/ydc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="yd³ - yard cube"/>
+            <TextView
+                android:id="@+id/acf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="af³ - acre foot"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

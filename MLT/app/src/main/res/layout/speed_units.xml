@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select unit"
+                android:gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp" />
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="c - lightspeed"/>
+            <TextView
+                android:id="@+id/ma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="ma - mach"/>
+            <TextView
+                android:id="@+id/mps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="m/s - meter per second"/>
+            <TextView
+                android:id="@+id/kmph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="km/h - kilometer per hour"/>
+            <TextView
+                android:id="@+id/kmps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="km/s - kilometer per second"/>
+            <TextView
+                android:id="@+id/kn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="kn - knot"/>
+            <TextView
+                android:id="@+id/mph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="mph - miles per hour"/>
+            <TextView
+                android:id="@+id/fps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="fps - foot per second"/>
+            <TextView
+                android:id="@+id/ips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="ips - inch per second"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

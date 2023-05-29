@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select unit"
+                android:gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp" />
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="°C - celsius"/>
+            <TextView
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="°F - fahrenheit"/>
+            <TextView
+                android:id="@+id/k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="K - kelvin"/>
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="°R - rankine"/>
+            <TextView
+                android:id="@+id/re"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:text="°Re - réaumur"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
