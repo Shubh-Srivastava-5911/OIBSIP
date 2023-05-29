@@ -17,6 +17,14 @@ task description - A Calculator will be an easy application if you have just lea
 
 application name - TalkingCalc, in this the operation's result will be shown as well as spoken by the app with the use of text-to-speech in android.
 
+<img src="https://github.com/Shubh-Srivastava-5911/OIBSIP/assets/123496162/b579ad6a-3d96-462d-af67-ccf058d29fe8" width="240"/>
+
+TASK4 - QUIZ APPLICATION
+
+task description - Here, you can provie the user with quiz on various general knowledge topics. These practices will ensure that you are able to set the layouts properly that increase your pace of learning the android application development. In the app, question should be asked and answers would be shown as multiple choices. The user select the answers and results that shown on the screen at the end.
+
+application name - QuantumQuiz, The quiz in this application is related to quantum computing general question and the overall result will be shown at the end of the test.
+
 <div >
    <span>  <img src="https://github.com/Shubh-Srivastava-5911/OIBSIP/assets/123496162/4b55114b-d258-4ce0-8ccc-994915b1aee2" style="width: 150; height: 90vh"/></span>
   <span> <img src="https://github.com/Shubh-Srivastava-5911/OIBSIP/assets/123496162/82234984-a691-4a16-b1f2-5a2eaee55460" style="width: 240; height: 80vh"/></span>
